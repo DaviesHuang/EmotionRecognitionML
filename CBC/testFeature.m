@@ -1,4 +1,4 @@
-function [ prediction ] = testFeature(tree, feature)
+function [ prediction , depth] = testFeature(tree, feature)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 prediction = 0;
